@@ -1,31 +1,58 @@
-# Cookiecutter Conda Data Science
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/rodolfo-arturo-gonz%C3%A1lez-trillo-93829219a/)
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://i.ibb.co/Jyp4td6/logo.png" alt="Logo" width="80" height="80">
+
+  <h3 align="center">Cookiecutter for Data Science Projects</h3>
+
+  <p align="center">
+    Improved template for Data Science based on <a href='https://github.com/jvelezmagic/cookiecutter-conda-data-science'>jvelezmagic</a>
+    <br />
+  </p>
+</p>
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <!--<li><a href="#license">License</a></li>-->
+    <li><a href="#contact">Contact</a></li>
+    <!--<li><a href="#acknowledgements">Acknowledgements</a></li>-->
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
 
 _A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
 
-## Requirements
+Following the almost standard format from 
+[drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science) with useful and personal modifications.
 
-- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
-- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html): This can be installed with pip by or conda depending on how you manage your Python packages:
+Runing this cookiecuter produces the next structure:
 
-``` bash
-pip install cookiecutter
-```
-
-or
-
-``` bash
-conda install -c conda-forge cookiecutter
-```
-
-## Create a new project
-
-In a folder where you want your project generated:
-
-```bash
-cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
-```
-
-## Resulting directory structure
 
     ├── LICENSE
     ├── tasks.py           <- Invoke with commands like `notebook`.
@@ -76,15 +103,87 @@ cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
         └── visualization  <- Scripts to create exploratory and results oriented visualizations.
             └── visualize.py
 
-## Contributing guide
 
-All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome.
 
-## Credits
+### Built With
 
-This project is heavily influenced by [drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science), [andfanilo's Cookiecutter for Kaggle Conda projects](https://github.com/andfanilo/cookiecutter-kaggle), and julia's package [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/).
+* [Python](https://www.python.org/)
+* [Conda](https://docs.conda.io/en/latest/)
+* [Cookiecutter](https://cookiecutter.readthedocs.io/)
+* [VSCode](https://code.visualstudio.com/)
 
-Other links that helped shape this cookiecutter :
+<!-- GETTING STARTED -->
+## Getting Started
 
-- [Write less terrible code with Jupyter Notebook](https://blog.godatadriven.com/write-less-terrible-notebook-code)
-- [Cookiecutter DataScience Opinions](http://drivendata.github.io/cookiecutter-data-science/#opinions)
+To produce the structure you need to follow these steps.
+
+### Prerequisites
+
+You need to install:
+
+* [Python](https://www.python.org/)
+* [Conda](https://docs.conda.io/en/latest/)
+* [Cookiecutter](https://cookiecutter.readthedocs.io/)
+
+
+
+### Installation
+
+1. From the terminal, inside the empty directory of the project you want to format, you must run this command:
+
+```sh
+cookiecutter https://github.com/rodoart/cookiecutter-conda-data-science
+```
+2. Follow the steps.
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Here are several projects that were made following this format:
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+
+<!-- 
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+ -->
+
+
+<!-- CONTACT -->
+## Contact
+
+Rodolfo Arturo González Trillo - rodoart1 gmx.com
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/rodolfo-arturo-gonz%C3%A1lez-trillo-93829219a/
+
+
+

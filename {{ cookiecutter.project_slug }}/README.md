@@ -1,6 +1,20 @@
-# {{ cookiecutter.project_name }}
 
-{{ cookiecutter.project_description }}
+[![LinkedIn][linkedin-shield]]([linkedin-url])
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="{{ cookiecutter.project_logo }}" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">{{ cookiecutter.project_name }}</h3>
+
+  <p align="center">
+    {{ cookiecutter.project_description }}
+  </p>
+</p>
+
   
 ## Installation guide
 
@@ -59,3 +73,9 @@ Please read [install.md](install.md) for details on how to set up this project.
 
 ---
 Project based on the [cookiecutter conda data science project template](https://github.com/jvelezmagic/cookiecutter-conda-data-science).
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/{{ project_linkedin }}
