@@ -2,13 +2,14 @@
     "project_name": "Cookiecutter Conda Data Science",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_author_name": "Your name (or your organization/company/team)",
-    "project_author_email": "Your email (or your organization/company/team)",
+    "project_author_name": "Rodolfo Arturo González Trillo",
+    "project_author_email": "rodoart1@gmail.com",
     "project_description": "A short description of the project.",
     "project_open_source_license": ["No license file", "MIT", "BSD-3-Clause"],
     "project_packages": ["All", "Minimal"],
     "python_version": "3.9.6",
     "project_version": "0.1.0",
-    "project_logo": "Link to the logo of your organization",
-    "project_linkedin": "Linkedin username"
+    "generate_virtual_enviroment": "no",
+    "project_logo": "https://i.ibb.co/9pNKXTv/git-logo.png",
+    "project_linkedin": "rodolfo-arturo-gonzález-trillo-93829219a"
 }

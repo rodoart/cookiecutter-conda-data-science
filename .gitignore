@@ -96,4 +96,4 @@ output/
 python_boilerplate/
 
 # VS-Code files
-*.code-workspace
+/cookiecutter_conda_data_science.code-workspace
