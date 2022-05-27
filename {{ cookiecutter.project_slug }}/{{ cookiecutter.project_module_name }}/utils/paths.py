@@ -1,15 +1,11 @@
-from pyprojroot import here
 from pathlib import Path
-from typing import (
-    Union,
-    Callable,
-    Iterable,
-)
+from typing import Callable
 
 def make_dir_function(
-    dir_name: Union[str, Iterable[str]]
+    dir_name= '',
+    workspace=''
 ) -> Callable[..., Path]:
-    """Generate a fucntion that converts a string or iterable of strings into
+    """Generate a function that converts a string or iterable of strings into
     a path relative to the project directory.
 
     Args:
@@ -18,17 +14,25 @@ def make_dir_function(
             If an iterable of strings is passed as an argument, then it is
             collapsed to a single steing with anchors dependent on the
             operating system.
+        
+        workspace: Path of the workspace. If it is none, the folder in which the 
+            file that is being executed is located is taken.
 
     Returns:
         A function that returns the path relative to a directory that can
         receive `n` number of arguments for expansion.
     """
 
+    if workspace:
+        workspace_path = Path(workspace).resolve()
+    else:
+        workspace_path = Path('.').resolve()
+
     def dir_path(*args) -> Path:
         if isinstance(dir_name, str):
-            return here().joinpath(dir_name, *args)
+            return workspace_path.joinpath(dir_name, *args)
         else:
-            return here().joinpath(*dir_name, *args)
+            return workspace_path.joinpath(*dir_name, *args)
 
     return dir_path
 
