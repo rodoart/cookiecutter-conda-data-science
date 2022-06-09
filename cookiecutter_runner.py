@@ -4,5 +4,5 @@ from datetime import datetime
 
 cookiecutter(
     'cookiecutter-conda-data-science',
-    extra_context={'timestamp': datetime.utcnow().isoformat()}
+    extra_context={'_timestamp': datetime.utcnow().isoformat()}
 )
