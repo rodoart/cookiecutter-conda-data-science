@@ -7,7 +7,7 @@
     "project_description": "A short description of the project.",
     "project_open_source_license": ["No license file", "MIT", "BSD-3-Clause"],
     "project_packages": ["All", "Minimal"],
-    "python_version": "3.9.6",
+    "python_version": "3.11.1",
     "project_version": "0.1.0",
     "generate_virtual_enviroment": "no",
     "project_logo": "https://i.ibb.co/9pNKXTv/git-logo.png",
